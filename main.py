@@ -4,6 +4,7 @@ balance = 5000
 print("1. Check Balance")
 print("2. Withdraw")
 print("3. Deposit")
+print("4. Exit")
 
 choices = input("Pick numbers ( 1 - 3 ): ")
 
@@ -38,5 +39,7 @@ elif choices == "2":
 elif choices == "3":
   amount = float(input("Enter Amount to Deposit: "))
   print(deposit(amount))
+elif choices == "4":
+  print("Thank you for using.")
 else:
   print("Invalid Choices. Please Try Again!")
